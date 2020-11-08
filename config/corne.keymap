@@ -22,7 +22,7 @@
    &kp ESC  &kp QUOT &kp CMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C    &kp R   &kp L   &kp FSLH
    &kp TAB &kp A &kp O &kp E &kp U &kp I   &kp D &kp H  &kp T    &kp N   &kp S &kp MINUS
    &mo 1 &kp SCLN &kp Q &kp J &kp K &kp X   &kp B &kp M  &kp W &kp V &kp Z &mo 2
-                   &kp LSFT &kp LSFT &kp RET   &kp SPC &kp BSPC &kp BSPC
+                   &kp A &kp A &kp RET   &kp SPC &kp BSPC &kp BSPC
                         >;
                 };
                 lower_layer {
