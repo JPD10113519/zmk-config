@@ -35,7 +35,7 @@
    &trans &trans &trans   &kp UP   &trans    &trans       &kp KMLT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp FSLH &trans
    &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans       &kp MINUS &kp NUM_4 &kp NUM_5 &kp NUM_6 &trans   &trans
    &trans &trans &trans   &trans   &trans    &trans       &kp PLUS  &kp NUM_1 &kp NUM_2 &kp NUM_3 &trans   &trans
-                             &kp LGUI &trans &trans       &trans    &kp NUM_0 &kp DOT
+                             &trans &trans &trans       &trans    &kp NUM_0 &kp DOT
                         >;
                 };
 
