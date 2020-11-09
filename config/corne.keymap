@@ -27,15 +27,15 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |    |     |     |  ^  |     |     |   |  *  |  7  |  8  |  9  |  /  |      |
+// |    |     |BKTAB|  ^  |ONTAB|     |   |  *  |  7  |  8  |  9  |  /  |      |
 // |    |     | <-  |  v  |  -> |     |   |  -  |  4  |  5  |  6  |  =  |      |    //maybe swap arrows and bt controls between layers one and two
-// |    |     |     |     |     |     |   |  +  |  1  |  2  |  3  |     |      |
+// |    |     |     |COPY |PASTE|     |   |  +  |  1  |  2  |  3  |     |      |
 //                  |     |     |     |   |     |  0  |  .  |
                         bindings = <
-   &trans &trans &trans   &kp UP   &trans    &trans       &kp KMLT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp FSLH  &trans
-   &trans &trans &kp LEFT &kp DOWN &kp RIGHT &trans       &kp MINUS &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp EQUAL &trans
-   &trans &trans &trans   &trans   &trans    &trans       &kp PLUS  &kp NUM_1 &kp NUM_2 &kp NUM_3 &trans    &trans
-                          &trans   &trans    &trans       &trans    &kp NUM_0 &kp DOT
+   &trans &trans &kp LC(LS(TAB)) &kp UP   &kp LS(TAB) &trans       &kp KMLT  &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp FSLH  &trans
+   &trans &trans &kp LEFT &kp DOWN &kp RIGHT  &trans       &kp MINUS &kp NUM_4 &kp NUM_5 &kp NUM_6 &kp EQUAL &trans
+   &trans &trans &trans   &kp LC(C)&kp LC(V)  &trans       &kp PLUS  &kp NUM_1 &kp NUM_2 &kp NUM_3 &trans    &trans
+                          &trans   &trans      &trans       &trans    &kp NUM_0 &kp DOT
                         >;
                 };
 
